@@ -1,0 +1,8 @@
+def verificar_edad():
+  edad = input("Ingresa tu edad: ")
+  edad_int = int(edad)
+
+  if edad >= 18:
+    print("Eres mayor de edad.")
+  else:
+    print("Eres menor de edad.")
